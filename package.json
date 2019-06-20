@@ -1,5 +1,5 @@
 {
-  "name": "timy",
+  "name": "react-timy",
   "version": "1.0.0",
   "description": "A simple time ago React component.",
   "main": "dist/index.js",
