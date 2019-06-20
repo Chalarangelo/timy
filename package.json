@@ -1,0 +1,56 @@
+{
+  "name": "timy",
+  "version": "1.0.0",
+  "description": "A simple time ago React component.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chalarangelo/timy.git"
+  },
+  "keywords": [
+    "time",
+    "date",
+    "react",
+    "ago"
+  ],
+  "author": "Angelos Chalaris (chalarangelo@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chalarangelo/timy/issues"
+  },
+  "homepage": "https://github.com/Chalarangelo/timy#readme",
+  "browserslist": [
+    "> 1%",
+    "not dead",
+    "last 2 Chrome major versions",
+    "last 2 Firefox major versions",
+    "last 2 Edge major versions",
+    "last 2 Safari major versions",
+    "ie 11",
+    "last 3 Android major versions",
+    "last 3 ChromeAndroid major versions",
+    "last 2 iOS major versions",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "rollup": "^1.5.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-terser": "^4.0.4"
+  }
+}
